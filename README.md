@@ -1,11 +1,11 @@
-About r-parallellogger
-======================
+About r-parallellogger-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-parallellogger-feedstock/blob/main/LICENSE.txt)
 
 Home: https://ohdsi.github.io/ParallelLogger/, https://github.com/OHDSI/ParallelLogger
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-parallellogger-feedstock/blob/main/LICENSE.txt)
 
 Summary: Support for parallel computation with progress bar, and option to stop or proceed on errors. Also provides logging to console and disk, and the logging persists in the parallel threads. Additional functions support function call automation with delayed execution (e.g. for executing functions in parallel).
 
