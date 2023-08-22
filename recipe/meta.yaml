@@ -1,4 +1,4 @@
-{% set version = "3.2.0" %}
+{% set version = "3.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ParallelLogger_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ParallelLogger/ParallelLogger_{{ version }}.tar.gz
-  sha256: 807915edb8fa0e0a077d89deba426ca26dbf22fdac3b8fdde95f3e628c2b3c72
+  sha256: 554989e93ece137e1586d653ddf953bb27db9daab56cf79efdce23c3baac2e2b
 
 build:
   merge_build_host: true  # [win]
