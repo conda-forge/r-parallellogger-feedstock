@@ -1,4 +1,4 @@
-{% set version = "3.4.1" %}
+{% set version = "3.4.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ParallelLogger_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ParallelLogger/ParallelLogger_{{ version }}.tar.gz
-  sha256: 3f6084d252dbc38a86ae96d31a28389194d96c50d840d036270d8419e4e753c1
+  sha256: 2655a8b1ace301fbe8006c4b276e0b5813f0a6a89410471fa5e955153e030fbf
 
 build:
   number: 0
@@ -25,12 +25,14 @@ requirements:
   host:
     - r-base
     - r-jsonlite
+    - r-memuse
     - r-rstudioapi
     - r-snow
     - r-xml2
   run:
     - r-base
     - r-jsonlite
+    - r-memuse
     - r-rstudioapi
     - r-snow
     - r-xml2
