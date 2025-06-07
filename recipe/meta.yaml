@@ -25,12 +25,14 @@ requirements:
   host:
     - r-base
     - r-jsonlite
+    - r-memuse
     - r-rstudioapi
     - r-snow
     - r-xml2
   run:
     - r-base
     - r-jsonlite
+    - r-memuse
     - r-rstudioapi
     - r-snow
     - r-xml2
