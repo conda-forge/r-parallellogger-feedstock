@@ -1,4 +1,4 @@
-{% set version = "3.4.2" %}
+{% set version = "3.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ParallelLogger_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ParallelLogger/ParallelLogger_{{ version }}.tar.gz
-  sha256: 2655a8b1ace301fbe8006c4b276e0b5813f0a6a89410471fa5e955153e030fbf
+  sha256: 20775c10da6ec7d78591e3ade94ce04c060e4277e71cd95d54312ef8d6b6a08f
 
 build:
   number: 0
